@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Assembla Tools",
+  "short_name": "AT",
+  "description": "Extends Assembla functions",
+  "version": "0.0.6",
+  "minimum_chrome_version": "38",
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": "assets/icon_16.png",
+    "default_title": "Show Assemlba Tools",
+    "default_popup": "views/tools.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*.assembla.com/*cardwall*", "https://*.assembla.com/*cardwall*", "https://*.assembla.com/*tickets*"],
+      "css": ["/css/at.css"],         
+      "js" : ["/js/jquery.min.js","/js/at_utils.js", "/js/at.js"],      
+      "all_frames": true
+    }
+  ],
+  "background": {
+    "scripts": ["/js/at_server.js"],
+    "persistent": true
+  }
+}

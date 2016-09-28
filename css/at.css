@@ -1,0 +1,67 @@
+#acm-toolbar{
+  height: 33px;
+  width: 95px;
+  position: absolute;
+  z-index: 2;
+}
+
+#acm-toolbar .acm-button {
+  color: #888;
+  background-color: #FFF;
+  border-radius: 4px;
+  border: 1px solid #DDD;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2px;
+  margin-left: 4px;
+  padding: 2px;
+  cursor: pointer;
+  height: 20px;
+  line-height:20px;
+  box-shadow: 1px 1px 3px #EEE;
+}
+
+#acm-toolbar .acm-tooltip {
+  background-color: #FFF;
+  border-radius: 2px;
+  border: 1px solid #DDD;
+  display: inline-block;
+  font-size: 10px;
+  padding: 4px;
+  line-height:10px;
+  position: absolute;
+  z-index: 3;
+  width:50px;
+  text-align: center;
+}
+
+#acm-toolbar .acm-button:hover {
+  color: #FFF;
+  background-color: #888;
+  border: 1px solid #888;
+}
+
+#acm-toolbar .acm-button.inactive {
+  color: #EEE;
+  border-color: #EEE;
+  cursor: not-allowed;
+}
+
+#acm-toolbar .acm-button.inactive:hover {
+  color: #EEE;
+  border: 1px solid #EEE;
+  background-color: #F9F9F9;
+}
+
+
+#acm-toolbar .acm-button.active {
+  color: #39F;
+  border-color: #39F;
+}
+
+#acm-dc {
+  text-decoration: none;
+  background: none !important;
+}

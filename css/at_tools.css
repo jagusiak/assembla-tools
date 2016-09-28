@@ -1,0 +1,83 @@
+#main {
+  width: 320px;  
+  color: #156196;;
+}
+
+h1 img{
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+hr {
+  border: 2px solid #156196;
+  margin: 0;
+}
+
+h2 {
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px dotted #DDD;
+  margin: 0;
+  padding: 5px;
+}
+
+.menu:hover {
+  cursor: pointer;
+  color: black;
+}
+
+h3 {
+  margin: 0;
+  padding: 4px;
+  display: block;
+  text-align: left;
+  color: gray;
+}
+
+h4 {
+  margin: 0;
+  padding: 4px;
+  display: block;
+  text-align: center;
+  font-size: normal;
+  font-weight: normal;
+}
+
+
+.content {
+  padding-top: 5px;
+  font-size: small;
+  font-weight: normal;
+  color: darkgray;
+  display: none;
+}
+
+.content textarea {
+  display: block;
+  height: 100px;
+  width: 100%;
+}
+
+.content p {
+  margin: 0;
+}
+
+.button {
+  background-color:  #156196;
+  border: 2px solid #FFF;
+  color: white;
+  text-decoration: none;
+  margin-top: 5px;
+  padding: 3px;
+  display: inline-block;
+}
+
+.button:hover {
+  border: 2px solid #156196;
+  cursor: pointer;
+}
